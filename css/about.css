@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-color: #26284e;
+}
+
+.header .navbar {
+  width: 90%;
+  height: 80px;
+  margin: auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.header .navbar .logo {
+  margin-left: 50px;
+}
+
+.header .navbar .logo a {
+  font-size: 30px;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+}
+
+.header .navbar .menu ul li {
+  margin-right: 30px;
+}
+
+.header .navbar .menu ul li a {
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: all 0.5s;
+  opacity: 0.6;
+}
+
+.header .navbar .menu ul li a.active {
+  opacity: 1;
+}
+
+.header .navbar .menu ul li a:hover {
+  opacity: 1;
+}
+
+.header .navbar .socialmedia ul li i {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin-right: 5px;
+  border-radius: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: 19px;
+  background-color: #cac5c542;
+  transition: all 0.3s ease-in-out;
+}
+
+.header .navbar .socialmedia ul li i:hover {
+  background-color: rgb(255 0 0 / 0.9);
+}
+
+.hero {
+  width: 100%;
+}
+.hero .row {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  margin: auto;
+}
+.hero .row .left {
+  width: 30%;
+  margin-left: 50px;
+}
+.hero .row .left h2 {
+  font-size: 85px;
+  color: #fff;
+}
+.hero .row .left h1 {
+  font-size: 50px;
+  color: #fff;
+}
+.hero .row .left h2 span {
+  color: #d43242;
+}
+.hero .row .left p {
+  margin: 20px 0;
+  line-height: 28px;
+  color: #fff;
+}
+.hero .row .left .discover {
+  background-color: transparent;
+  border: 2px solid #d43242;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.hero .row .left .discover:hover {
+  color: white;
+  background-color: #d43242;
+}
+
+.hero .right {
+  width: 70%;
+  padding-top: 50px;
+}
+.hero .right form h1 {
+  color: white;
+}
+.hero .right form h3 {
+  color: white;
+  margin-top: 5px;
+}
+.hero .right form input {
+  width: 100%;
+  border-radius: 50px;
+  border-style: none;
+  padding: 10px;
+  margin-top: 5px;
+}
+.hero .right form hr {
+  color: white;
+  width: 50%;
+  margin: 10px 0;
+}
+
+.hero .right form button {
+  background-color: transparent;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.hero .right form button:hover {
+  font-weight: bold;
+  background-color: white;
+  color: #d43242;
+}
+
+.hero .right form {
+  background-color: #d43242;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+  width: 50%;
+  height: 350px;
+  margin: auto 25% auto auto;
+  padding: 25px;
+  float: right;
+}
